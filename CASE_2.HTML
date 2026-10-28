@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greenfield College</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #f2f8f3;
+            color: #26352b;
+        }
+
+        header {
+            background-color: #17613f;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #103f2a;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffe08a;
+        }
+
+        .hero {
+            background-color: #dcefe2;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #17613f;
+            color: white;
+            padding: 12px 18px;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .button:hover {
+            background-color: #278354;
+        }
+
+        .container {
+            width: 85%;
+            margin: 25px auto;
+        }
+
+        h2 {
+            color: #17613f;
+            border-bottom: 2px solid #a6d3b4;
+            padding-bottom: 8px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 180px;
+            box-shadow: 0 3px 10px #d1e1d5;
+        }
+
+        .card h3 {
+            color: #20734b;
+        }
+
+        .stats {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .stat {
+            background-color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat b {
+            display: block;
+            font-size: 24px;
+            color: #17613f;
+        }
+
+        .admission {
+            background-color: #dcefe2;
+            padding: 22px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #103f2a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>GREENFIELD COLLEGE</h1>
+        <p>Learn Today, Lead Tomorrow</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Build Your Future With Us</h2>
+        <p>Discover knowledge, develop skills and prepare for tomorrow.</p>
+        <a class="button" href="#admissions">Explore Admissions</a>
+
+        <div class="stats">
+            <div class="stat">
+                <b>20+</b>
+                Learning Labs
+            </div>
+
+            <div class="stat">
+                <b>15+</b>
+                Student Clubs
+            </div>
+
+            <div class="stat">
+                <b>3</b>
+                Featured Courses
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <h2 id="about">About Our College</h2>
+        <p>Greenfield College encourages students to develop
+        academic knowledge, practical skills and confidence.
+        Learning includes classroom activities, projects and teamwork.</p>
+
+        <h2 id="courses">Our Courses</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Computer Science</h3>
+                <p>Learn programming, web development, databases
+                and modern computing technologies.</p>
+            </div>
+
+            <div class="card">
+                <h3>Electronics</h3>
+                <p>Explore electronic circuits, communication
+                systems and laboratory experiments.</p>
+            </div>
+
+            <div class="card">
+                <h3>Mechanical</h3>
+                <p>Study engineering design, manufacturing
+                and mechanical systems.</p>
+            </div>
+        </div>
+
+        <h2 id="facilities">Campus Facilities</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Library</h3>
+                <p>Books and quiet spaces for learning.</p>
+            </div>
+
+            <div class="card">
+                <h3>Laboratories</h3>
+                <p>Practical learning through experiments.</p>
+            </div>
+
+            <div class="card">
+                <h3>Sports and Clubs</h3>
+                <p>Activities that encourage teamwork and creativity.</p>
+            </div>
+        </div>
+
+        <h2 id="admissions">Admissions</h2>
+
+        <div class="admission">
+            <h3>Start Your Journey</h3>
+            <p>Contact the admissions office to ask about
+            eligibility, application dates and required documents.</p>
+
+            <a class="button"
+            href="mailto:admissions@greenfield.example">
+            Contact Admissions</a>
+        </div>
+
+        <h2 id="contact">Contact Information</h2>
+        <p>Email: admissions@greenfield.example</p>
+        <p>Office Hours: Monday–Friday, 9 AM–4 PM</p>
+        <p><i>Greenfield College is a fictional example for this project.</i></p>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Greenfield College | College Information Website</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #f1f5fa;
+            color: #263746;
+        }
+
+        header {
+            background-color: #173b70;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+
+        nav {
+            background-color: #102c50;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        .container {
+            width: 85%;
+            margin: 25px auto;
+        }
+
+        .intro {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 3px 10px #ccd5e0;
+        }
+
+        .profile {
+            background-color: #dceaff;
+            color: #173b70;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            margin: auto;
+            line-height: 90px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #173b70;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 180px;
+            box-shadow: 0 3px 10px #ccd5e0;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #dceaff;
+            color: #173b70;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+
+        .contact {
+            background-color: #dceaff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #102c50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Alex Kumar</h1>
+        <p>Computer Science Student | Future Web Developer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="intro" id="about">
+            <div class="profile">AK</div>
+            <h2>About Me</h2>
+            <p>Hello! I am a first-year B.Tech student interested
+            in technology, creativity and web development.</p>
+            <p>My goal is to build useful and attractive websites.</p>
+        </div>
+
+        <h2 id="education">My Education</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>B.Tech</h3>
+                <p>Branch: Computer Science</p>
+                <p>Year: First Year</p>
+            </div>
+
+            <div class="card">
+                <h3>My Goals</h3>
+                <p>Learn programming, improve my skills and
+                develop creative projects.</p>
+            </div>
+        </div>
+
+        <h2 id="skills">My Skills</h2>
+
+        <div class="card">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Python Basics</span>
+            <span class="tag">Communication</span>
+            <span class="tag">Creativity</span>
+        </div>
+
+        <h2>My Interests</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Technology</h3>
+                <p>Exploring new digital tools and ideas.</p>
+            </div>
+
+            <div class="card">
+                <h3>Design</h3>
+                <p>Creating beautiful layouts and color combinations.</p>
+            </div>
+
+            <div class="card">
+                <h3>Learning</h3>
+                <p>Practising new concepts and building projects.</p>
+            </div>
+        </div>
+
+        <h2 id="contact">Contact Me</h2>
+
+        <div class="contact">
+            <p>Email: alex.kumar@example.com</p>
+            <p>Location: India</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Alex Kumar | Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
